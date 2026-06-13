@@ -1,0 +1,39 @@
+---
+---
+@import "{{ site.theme }}";
+
+$zz-bg:         #07000f;
+$zz-purple:     #c044ff;
+$zz-purple-dim: #7a00cc;
+$zz-text:       #b8a8d0;
+$zz-link:       #a855f7;
+$neon:      0 0 5px $zz-purple, 0 0 15px $zz-purple, 0 0 30px $zz-purple-dim;
+$neon-soft: 0 0 5px rgba(192, 68, 255, 0.3), 0 0 10px rgba(192, 68, 255, 0.2);
+
+html, body    { background: $zz-bg !important; color: $zz-text; min-height: 100vh; }
+.container    { background: $zz-bg !important; }
+div.container { background: $zz-bg !important; }
+section       { background: $zz-bg !important; }
+
+header           { background: $zz-bg !important; border-bottom: 1px dashed $zz-purple-dim !important; }
+header h1        { color: $zz-purple !important; text-shadow: $neon; }
+header h1:before { color: $zz-purple-dim; }
+header h2        { color: #6a4a8a !important; }
+
+h1, h2, h3, h4, h5, h6 { color: $zz-purple !important; text-shadow: $neon-soft; }
+
+a       { color: $zz-link !important; text-shadow: 0 0 6px rgba(168, 85, 247, 0.4); }
+a:hover { color: #e0aaff !important; text-shadow: 0 0 10px $zz-purple; }
+
+pre                    { background: rgba(15, 0, 30, 0.95) !important; border: 1px solid $zz-purple-dim !important; color: $zz-purple !important; }
+code.highlighter-rouge { background: rgba(15, 0, 30, 0.9) !important; border: 1px solid rgba(122, 0, 204, 0.4) !important; color: $zz-purple !important; }
+
+th         { border-bottom: 1px dashed $zz-purple-dim; }
+hr         { border-bottom: 1px dashed $zz-purple-dim; color: $zz-purple-dim; }
+blockquote { border-left: 1px dotted $zz-purple-dim; color: #8855aa; }
+
+.btn       { border-color: $zz-purple-dim !important; color: $zz-text !important; }
+.btn:hover { border-color: $zz-purple !important; color: #fff !important; }
+
+ul li         { list-style-image: none !important; list-style-type: disc; }
+ul li::marker { color: $zz-purple; }
