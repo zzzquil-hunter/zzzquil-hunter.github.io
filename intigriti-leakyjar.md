@@ -5,10 +5,10 @@ tags: [intigriti, csrf, ctf, web]
 
 # There's a Leak in the Jar-O
 
-**Author:** zzzquil
-**Challenge:** Intigriti June Bonus Challenge - LeakyJar
-**Category:** CSRF
-**Status:** ✅ Solved
+**Author:** zzzquil  
+**Challenge:** Intigriti June Bonus Challenge - LeakyJar  
+**Category:** CSRF  
+**Status:** ✅ Solved  
 
 ---
 
@@ -92,15 +92,7 @@ One file, on any origin I control:
 
 Sitting between *Brown Butter Base* and a couple of recipes I'd added uninvited:
 
-> **Master Baker's Secret Recipe** - `INTIGRITI{019ef404-1e44-7748-bdcf-ca7b12dbfee0}`
-
----
-
-## The Flag
-
-```
-INTIGRITI{019ef404-1e44-7748-bdcf-ca7b12dbfee0}
-```
+> **Master Baker's Secret Recipe** - `INTIGRITI{XXXXXXFLAGXXXXXX}`
 
 ---
 
